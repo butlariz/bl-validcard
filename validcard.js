@@ -26,11 +26,7 @@ const sumArray = (array) => {
 }
 
 const validateSum = (num) => {
-  if (num % 10 == 0) {
-    return true
-  } else {
-    return false
-  } 
+  return num % 10 == 0
 }
 
 module.exports.cardValidator = cardValidator;
