@@ -33,6 +33,4 @@ const validateSum = (num) => {
   } 
 }
 
-cardValidator()
-
- //36490102462661
+module.exports.cardValidator = cardValidator;
