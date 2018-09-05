@@ -1,0 +1,32 @@
+{
+  "name": "bl-validcard",
+  "version": "1.0.1",
+  "description": "Validar número de cartão",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "nyc": "^13.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/butlariz/bl-validcard.git"
+  },
+  "author": "Larissa da Silva Santana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/butlariz/bl-validcard/issues"
+  },
+  "homepage": "https://github.com/butlariz/bl-validcard#readme",
+  "keywords": [
+    "cardvalidator"
+  ]
+}

@@ -1,5 +1,5 @@
 const chai = require('../node_modules/chai')
-const validFunction = require('../validcard')
+const validFunction = require('../index')
 const cardValidator = validFunction.cardValidator
 const expect = chai.expect
 
